@@ -28,11 +28,22 @@ h2 {
 h3,
 p,
 li,
-ul,
-table {
+ul {
     font-family: 'Montserrat', Arial, sans-serif;
     color: #ffffff;
     padding: 2px;
+}
+
+table {
+    border-collapse: collapse;
+    font-family: 'Montserrat', Arial, sans-serif;
+    color: #ffffff;
+    padding: 2px;
+}
+
+table, th, td {
+    border: 1px solid rgb(198, 198, 198);
+    padding: 4px;
 }
 
 a,
