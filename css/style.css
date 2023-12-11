@@ -76,20 +76,20 @@ nav ul li a {
     transition: color 0.3s; 
 }
 
-ul li a:link {
+a:link {
     color: var(--link-color); 
 }
 
-ul li a:visited {
+a:visited {
     color: var(--link-visited-color); 
 }
 
-ul li a:hover {
+a:hover {
     text-decoration: underline;
     color: var(--link-hover-color);
 }
 
-ul li a:active {
+a:active {
     color: #ff8c00; 
 }
 
