@@ -16,7 +16,10 @@ html {
     --footer-bg-color: #00000096;
     --link-color: white;
     --link-hover-color: grey;
+    --link-visited-color: #c8c8c8;
     --border-color: white;
+    --alt-text-color: #000000;
+
 }
 
 body.dark-mode {
@@ -27,6 +30,7 @@ body.dark-mode {
     --footer-bg-color: #ffffffd9;
     --link-color: #000000;
     --link-hover-color: #000000;
+    --link-visited-color: #c8c8c8;
     --border-color: #000000;
     --alt-text-color: #ffffff;
 }
@@ -69,15 +73,24 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: var(--link-color);
+    transition: color 0.3s; 
 }
 
-nav ul li a:hover {
+ul li a:link {
+    color: var(--link-color); 
+}
+
+ul li a:visited {
+    color: var(--link-visited-color); 
+}
+
+ul li a:hover {
     text-decoration: underline;
     color: var(--link-hover-color);
 }
 
-nav ul li a:active {
-    color: #ff8c00;
+ul li a:active {
+    color: #ff8c00; 
 }
 
 main {
