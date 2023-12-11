@@ -76,6 +76,10 @@ nav ul li a:hover {
     color: var(--link-hover-color);
 }
 
+nav ul li a:active {
+    color: #ff8c00;
+}
+
 main {
     padding-top: 20px;
     padding-bottom: 20px;
