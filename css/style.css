@@ -143,6 +143,10 @@ img {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
+#projects .project ul {
+    margin-left: 20px;
+}
+
 #projects .project img {
     width: 150px;
     height: auto;
@@ -156,7 +160,6 @@ img {
 #projects .project p {
     font-size: 0.9em;
     line-height: 1.4;
-    padding: 5px
 }
 
 
