@@ -28,6 +28,7 @@ body.dark-mode {
     --link-color: #000000;
     --link-hover-color: #000000;
     --border-color: #000000;
+    --alt-text-color: #ffffff;
 }
 
 body {
@@ -160,6 +161,31 @@ img {
 #projects .project p {
     font-size: 0.9em;
     line-height: 1.4;
+}
+
+#scrollToTopBtn {
+    position: fixed;
+    bottom: 70px; 
+    right: 15px;
+    padding: 7px 11px;
+    font-size: 16px;
+    background-color: var(--section-bg-color); 
+    color: var(--text-color); 
+    border: 2px solid var(--border-color); 
+    cursor: pointer;
+    border-radius: 5px;
+    z-index: 1000; 
+    opacity: 0.8; 
+    transition: opacity 0.4s ease, background-color 0.3s ease;
+    text-align: center; 
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
+}
+
+#scrollToTopBtn:hover {
+    opacity: 1; 
+    background-color: var(--link-hover-color); 
+    color: var(--alt-text-color)
 }
 
 

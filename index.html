@@ -335,6 +335,14 @@
         h5.addEventListener('animationend', resetAnimation);
 
     </script>
-    
+
+    <button id="scrollToTopBtn">↑</button>
+
+    <script>
+        document.getElementById("scrollToTopBtn").addEventListener("click", function() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+    </script>
+
 </body>
 </html>
